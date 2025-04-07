@@ -10,7 +10,7 @@ const Pricing = () => {
         <h1 className="text-6xl font-bold mt-12">Affordable Pricing Plans</h1>
       </div>
       <div className=" mt-20 flex flex-wrap justify-center items-center">
-        <div className=" border border-white/10 border-1 rounded-3xl md:w-[30rem] m-2 relative overflow-hidden">
+        <div className=" border border-white/10 border-1 rounded-3xl md:w-[30rem] w-full m-2 relative overflow-hidden">
           <Image
             src={anm1}
             alt="Picture of the author"
@@ -92,7 +92,7 @@ const Pricing = () => {
             </ul>
           </div>
         </div>
-        <div className=" border border-white/10 border-1 rounded-3xl w-[30rem] m-2 relative overflow-hidden">
+        <div className=" border border-white/10 border-1 rounded-3xl md:w-[30rem] w-full m-2 relative overflow-hidden">
           <Image
             src={anm1}
             height={300}
@@ -174,7 +174,7 @@ const Pricing = () => {
             </ul>
           </div>
         </div>
-        <div className=" border border-white/10 border-1 rounded-3xl w-[30rem] m-2 relative overflow-hidden">
+        <div className=" border border-white/10 border-1 rounded-3xl md:w-[30rem] w-full m-2 relative overflow-hidden">
           <Image
             src={anm1}
             height={300}
